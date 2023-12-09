@@ -34,8 +34,17 @@ Test params: n = 100000000; max = 500000; runs = 5; checkCorrectness = 0
 | 5 | 1.16775e+07ms | 4.42971e+06ms | 2.63618 |
 
 
-Test params: n = 100000000; max = 100000000; runs = 1; checkCorrectness = 0
-time_seq = 8.35037e+06ms; time_par = 4.96264e+06ms; seq/par coef = 1.68265;
+Test params: n = 100000000; max = 100000000; runs = 5; checkCorrectness = 0
+
+| № | time_seq | time_par | seq/par coef |
+|---|--------| --- | --- |
+| 1 | 8.27569e+06ms | 3.42951e+06ms | 2.41308 |
+| 2 | 8.35338e+06ms | 3.3115e+06ms | 2.52254 |
+| 3 | 8.29328e+06ms | 3.29589e+06ms | 2.51625 |
+| 4 | 8.29064e+06ms | 3.32997e+06ms | 2.4897 |
+| 5 | 8.23044e+06ms | 3.32134e+06ms | 2.47804 |
+
+
 
 
 
