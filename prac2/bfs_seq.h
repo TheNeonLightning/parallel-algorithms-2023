@@ -30,7 +30,7 @@ auto bfs_seq(int start, const parlay::sequence<parlay::sequence<int>>& G) {
 
 int resolve_path_length(int start, int vertex, const parlay::sequence<int>& prev) {
   int current = vertex;
-  int length = 0;
+  int length;
   for (length = 0; current != -1 && current != start; ++length) {
     current = prev[current];
   }
